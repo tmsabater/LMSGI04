@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT QUESTIONS (question+, type,text,option*,answer)>
-<!ELEMENT QUESTIONS (question+>
+<!ELEMENT QUESTIONS (question+)>
+<!ELEMENT QUESTIONS (type,text,option*,answer)>
 <!ATTLIST question id ID #REQUIRED>
 <!ELEMENT type (#PCDATA)>
 <!ELEMENT text (#PCDATA)>
